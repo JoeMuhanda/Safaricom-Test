@@ -1,4 +1,7 @@
 def solution(A):
+    # Filter out negative integers and 0
+    A = list(filter(lambda x: x > 0, A))
+    
     
     # If the filtered list is empty, the smallest positive integer is 1
     if not A:
