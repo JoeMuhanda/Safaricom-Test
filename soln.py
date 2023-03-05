@@ -17,6 +17,3 @@ def solution(A):
             return smallest_int
     
    
- # If all integers in the list are consecutive positive integers, 
-    # the smallest missing positive integer is the next positive integer after the last element
-    return A[-1] + 1
