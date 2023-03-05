@@ -3,9 +3,6 @@ def solution(A):
     A = list(filter(lambda x: x > 0, A))
     
     
-    # If the filtered list is empty, the smallest positive integer is 1
-    if not A:
-        return 1
     
     # Sort the list and find the smallest positive integer
     A.sort()
