@@ -19,3 +19,4 @@ def solution(A):
  # If all integers in the list are consecutive positive integers, 
     # the smallest missing positive integer is the next positive integer after the last element
     return A[-1] + 1
+#i just changed something
