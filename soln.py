@@ -20,3 +20,4 @@ def solution(A):
     # the smallest missing positive integer is the next positive integer after the last element
     return A[-1] + 1
 #i just changed something
+# i learnt how to clone git,github and vscode
